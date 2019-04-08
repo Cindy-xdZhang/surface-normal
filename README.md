@@ -12,6 +12,7 @@ void cvFitPlane(const CvMat* points, float* plane);
 void CallFitPlane(const Mat& depth,int * points,int i,int j,float *plane12);  
 void search_plane_neighbor(Mat &img,int i,int j ,float threhold,int* result);  
 int telldirection(float * abc,int i,int j,float d);  
+  
 So if you need a clean code , you can download the clean.hpp. 
 If you get any bugs in the  clean.hpp,please check the original tool.cpp.  
 
