@@ -16,4 +16,4 @@ int telldirection(float * abc,int i,int j,float d);
 So if you need a clean code , you can download the clean.hpp. 
 If you get any bugs in the  clean.hpp,please check the original tool.cpp.  
 
-##The suggest environment is g++ 4.1/linux16.04, opencv2.4.9.
+## The suggest environment is g++ 4.1/linux16.04, opencv2.4.9.
