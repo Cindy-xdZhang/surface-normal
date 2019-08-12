@@ -1,5 +1,5 @@
 # surface-normal
-**is is a tools code repo for CVPR2019 paper 1899: Deep Surface Normal Guided Depth Prediction for Outdoor Secene from Sparce Lidar Data and Single Color Image,by Jiaxiong Qiu, Zhaopeng Cui, Yinda Zhang, Xingdi Zhang, Shuaicheng Liu, Bing Zeng and Marc Pollefeys.**  
+**This is a tools code repo for CVPR2019 paper 1899: Deep Surface Normal Guided Depth Prediction for Outdoor Secene from Sparce Lidar Data and Single Color Image,by Jiaxiong Qiu, Zhaopeng Cui, Yinda Zhang, Xingdi Zhang, Shuaicheng Liu, Bing Zeng and Marc Pollefeys.**  
 
 The main code is in [here](https://github.com/JiaxiongQ/DeepLiDAR)
 
