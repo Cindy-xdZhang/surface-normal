@@ -26,14 +26,16 @@ So if you need a clean code , you can download the **clean.hpp**.
 
 There is a demo in it to show how to use the function.
 If you get any bugs in the clean.hpp,please check the original tool.cpp or pull an issue or sent me an email at
-cindyzhang.yono531@gmail.com
-##Citation
-If you use our code or method in your work, please cite the following:  
+cindyzhang.yono531@gmail.com  
 
+## Citation
+If you use our code or method in your work, please cite the following:  
+`
 @inproceedings{qiu2018deeplidar,
   title={DeepLiDAR: Deep Surface Normal Guided Depth Prediction for Outdoor Scene from Sparse LiDAR Data and Single Color Image},
   author={Qiu, Jiaxiong and Cui, Zhaopeng and Zhang, Yinda and Zhang, Xingdi and Liu, Shuaicheng and Zeng, Bing and Pollefeys, Marc},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
   year={2019}
-}
+}`  
+
 ## The suggest environment is g++ 4.1/linux16.04, opencv2.4.9.
