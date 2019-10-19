@@ -11,7 +11,7 @@ The most important one is the  ```Mat calplanenormal(Mat &src);```
 This function calculate the surface normal of the sparce lidar input, it will return a Mat res as the surface normal.
 You should set `fcxcy ,windowsize, threshold` before use the function.  
 
-The following function is used in `Mat calplanenormal(Mat &src)`:  
+The following functions are used in `Mat calplanenormal(Mat &src)`:  
 
 `void cvFitPlane(const CvMat* points, float* plane);`  
 
