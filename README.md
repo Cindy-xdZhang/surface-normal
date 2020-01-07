@@ -27,7 +27,18 @@ So if you need a clean code , you can download the **clean.hpp**.
 There is a demo in it to show how to use the function.
 If you get any bugs in the clean.hpp,please check the original tool.cpp or pull an issue or sent me an email at
 cindyzhang.yono531@gmail.com  
+***
+##Specific description about the ```Mat calplanenormal(Mat &src);```  
+input :16bit single channel depth image.
+Output:RGB image(surface normal).
+method:
+set a windowsize=15
 
+for each valid depth point in src:
+
+search windowsize nearby area, collect all valid depth points in the window
+
+using least square method to estimate the plane and surface normal.
  ***
 ## Citation
 If you use our code or method in your work, please cite the following:  
