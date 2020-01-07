@@ -31,7 +31,8 @@ cindyzhang.yono531@gmail.com
 ## Specific description about the ```Mat calplanenormal(Mat &src);```  
 input :16bit single channel depth image.
 Output:RGB image(surface normal).
-method:
+
+general procedures:
 set a windowsize=15
 
 for each valid depth point in src:
