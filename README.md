@@ -33,13 +33,18 @@ input :16bit single channel depth image.
 Output:RGB image(surface normal).
 
 general procedures:
+
 set a windowsize=15
 
 for each valid depth point in src:
 
-search windowsize nearby area, collect all valid depth points in the window
+  search windowsize nearby area, collect all valid depth points in the window
 
-using least square method to estimate the plane and surface normal.
+  using least square method to estimate the plane and surface normal.
+  
+  get the normal of the plane as the normal of this depth point
+  
+ end
  ***
 ## Citation
 If you use our code or method in your work, please cite the following:  
